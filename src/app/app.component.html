@@ -19,9 +19,11 @@
             <td>
               {{ i + 1 }}
             </td>
-
             <td>
               {{ item.description }}
+            </td>
+            <td>
+              <input type="checkbox" [(ngModel)]="item.action" />
             </td>
             <td [ngSwitch]="item.action">
               <span *ngSwitchCase="true" class="text-success">Yes</span>

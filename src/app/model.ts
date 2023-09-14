@@ -7,7 +7,7 @@ export class Model {
     this.items = [
       new TodoItem('Kahvaltı', false),
       new TodoItem('Okul', false),
-      new TodoItem('Angular', false),
+      new TodoItem('Angular', true),
       new TodoItem('React', false),
     ];
   }
